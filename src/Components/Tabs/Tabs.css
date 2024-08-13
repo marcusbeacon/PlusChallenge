@@ -1,0 +1,57 @@
+/* Styles for all the Tabs */
+
+.tab-box-container {
+    column-gap: 24px;
+    align-items: flex-start;
+    display: flex;
+    max-width: 750px;
+}
+
+.tab-title {
+    font-weight: 500;
+    font-size: 30pt;
+}
+
+.text-list {
+    display: inline-block;
+    font-weight: 550;
+}
+
+.link {
+    font-weight: 600;
+}
+
+.action-menu-container {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.about-text-container {
+    line-height: 2;
+    margin-left: 25px;
+}
+
+.contact-text-container {
+    line-height: 2;
+    margin-top: 25px;
+}
+
+.about-row {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fade-in {
+    margin-top: 25px;
+    animation: fade-in-animation 0.5s;
+}
+
+@keyframes fade-in-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
